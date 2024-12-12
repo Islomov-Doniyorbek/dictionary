@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Izohli lug'at</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>English dictionary</header>
+        <div class="search">
+            <input type="text" placeholder="finding word" required>
+            <i class="fa fa-search"></i>
+            <i class="fa fa-close"></i>
+            <!-- <div class="material-icons">close</div> -->
+        </div>
+        <p class="info-text">
+            Type a word and press enter to get meaning example, pronuncition and synonyms of that typed word
+        </p>
+        <ul>
+            <li class="word">
+                <div class="details">
+                    <p>Happy</p>
+                    <span>adjective /'hapi/</span>
+                </div>
+                <i class="fa fa-volume-up"></i>
+            </li>
+            <div class="content">
+                <li class="meaning">
+                    <div class="details">
+                        <p>Meaning</p>
+                        <span>feelng or showing pleasure or contentment</span>
+                    </div>
+                </li>
+                <li class="example">
+                    <div class="details">
+                        <p>Example</p>
+                        <span>Prakash came in looking happy and excited</span>
+                    </div>
+                </li>
+                <li class="synonyms">
+                    <div class="details">
+                        <p>Synonyms</p>
+                        <div class="list"></div>
+                    </div>
+                </li>
+            </div>
+        </ul>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
